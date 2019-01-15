@@ -4,7 +4,7 @@ img {
     display: block;
     margin: auto;
     border-radius: 50%;
-    box-shadow: 6px 6px 4px aliceblue; 
+    box-shadow: 10px 10px 5px #656565;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
     padding: 1em;
     text-align: left;
     background-color: aliceblue;
+    box-shadow: 10px 10px 5px #656565;
 }
 
 .defaults {
@@ -28,6 +29,7 @@ body {
     padding: 1em;
     text-align: left;
     background-color: aliceblue;
+    box-shadow: 10px 10px 5px #656565;
 }
 
 .joke {
@@ -36,6 +38,7 @@ body {
     padding: 1em;
     text-align: center;
     background-color: aliceblue;
+    box-shadow: 10px 10px 5px #656565;
 }
 
 .box {
