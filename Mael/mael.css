@@ -60,7 +60,7 @@ a {
     animation: wagon 8s infinite linear;
 }
 
-@key frames wagon {
+@keyframes wagon {
     from{
         transform: translate(-1500px);
     }
