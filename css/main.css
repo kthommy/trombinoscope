@@ -1,0 +1,19 @@
+main{
+    display: block;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 1em 1em 2em 1em;
+    border-radius: 2em;
+}
+
+main img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+main h2{
+    margin: 0 1em .5em 1em;
+    font-size: 2em;
+}

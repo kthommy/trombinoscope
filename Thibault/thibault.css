@@ -1,0 +1,16 @@
+body { 
+    background-color: #008fb3;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+border: solid 2px; 
+margin: 0px;
+position: center;
+text-align: center;
+}
+
+p {
+
+    font-size: 20px;
+}
