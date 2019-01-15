@@ -1,0 +1,44 @@
+img {
+    height: 20em;
+    width: 20em;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: solid 5px aliceblue;
+    
+}
+
+body {
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+.qualite {
+    display: block;
+    min-width: 20em;
+    padding: 1em;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.defaults {
+    display: block;
+    min-width: 20em;
+    padding: 1em;
+    text-align: left;
+    background-color: aliceblue;
+}
+
+.joke {
+    display: block;
+    min-width: 20em;
+    padding: 1em;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
