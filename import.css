@@ -1,1 +1,3 @@
-@import 'mael.css'
+@import 'css/reset.css';
+@import 'mael.css';
+@import 'page-style.css';

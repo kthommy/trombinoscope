@@ -1,0 +1,44 @@
+/*
+    Page Style
+*/
+
+
+/*
+    H1
+*/
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 2em;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1024px;
+    background-color: pink;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+ul li{
+    position: relative;
+}
+ul li a img{
+    max-width: 150px;
+    height: auto;
+}
+ul li audio{
+    position: absolute;
+    opacity: .5;
+    bottom: 0;
+    width: 100%;
+}
+ul li a span{
+    position: absolute;
+    bottom: 0;
+    margin-left: -50%;
+}
