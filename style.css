@@ -1,0 +1,16 @@
+ul {
+    display: flex;
+    flex-flow: row wrap;
+ }
+ img {
+ border-radius: 50% ;;
+ width: 5em;
+ height: 5em;
+
+}
+h1 {
+    text-align: center;
+}
+ul { 
+    list-style-type: none;
+}

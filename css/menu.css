@@ -10,6 +10,7 @@
 .menu li:first-of-type{
     margin-left: 0;
 }
+
 .menu li:last-of-type{
     margin-right: 0;
 }
@@ -26,6 +27,18 @@
     height: 50px;
 
     transition: .3s ease-in all;
+}
+.menu li:first-of-type a{
+    background-color: aqua;
+    text-decoration: none;
+    text-align: center;
+    color: #56b0b0;
+    font-size: .8em;
+    font-weight: bold;
+}
+.menu li:first-of-type a span{
+    display: inline-block;
+    margin-top: .8em;
 }
 .menu img{
     width: 50px;
