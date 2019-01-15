@@ -1,0 +1,39 @@
+h1 {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+body {
+    background-color: lightslategray;
+}
+
+img  {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-radius: 10%;
+}
+
+p {
+    display: flex;
+    justify-content: left;
+    background-color: crimson;
+    color: white;
+}
+
+h2 {
+    border-style: double;
+    border-color: black;
+    color: cyan;
+    display: block;
+    text-align: center;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
