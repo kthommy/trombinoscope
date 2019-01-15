@@ -1,0 +1,58 @@
+body 
+{
+    font-family: 'Walter Turncoat';
+    background-color: rgb(170, 2, 2)
+}
+
+h1
+{
+    text-align: center;
+    font-size: 4em;
+    border: solid white 5px;
+    border-style: double;
+}
+
+h2
+{
+    color: white;
+}
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.photo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo img
+{
+    height: 280px;
+    width: 550px;
+    border: solid black 5px;
+    border-radius: 75px;
+}
+
+.gif img
+{
+    height: 159px;
+    width: 300px;
+    border: solid black 5px;
+    border-radius: 75px;
+}
+
+.quotes ul
+{
+    list-style-type: none;
+}
+
+.quotes a
+{
+    color: white;
+}
