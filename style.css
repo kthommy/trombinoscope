@@ -1,6 +1,10 @@
+ul {
+    display: flex;
+    flex-flow: row wrap;
+ }
  img {
  border-radius: 50% ;;
- display: block;
+ 
 
 }
 h1 {
