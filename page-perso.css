@@ -4,6 +4,7 @@ img {
     display: block;
     margin: auto;
     border-radius: 50%;
+    border: solid 5px white;
 }
 
 body {
