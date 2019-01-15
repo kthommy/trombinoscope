@@ -7,6 +7,31 @@ html {
     align-items: center
 }
 
+
+input {
+    margin: 10px auto;
+    width: 700px;
+    height: 5em;
+    justify-content: center;
+    color: palevioletred;
+    background-image: -moz-linear-gradient(to left, palegreen, paleturquoise);
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 1px white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
 .main{
     background-color: palevioletred;
 
@@ -70,15 +95,20 @@ html {
     margin-top: 22px;
     background-image: -moz-linear-gradient( to left, white, cyan) ;
     opacity: .8;
+    z-index: 1;
+}
+
+.wagon4 .wagon1 {
+    left: -10px;
 }
 
 .nose {
-    position: absolute;
     height: 50px;
     width:150px;
-    top: 20px;
-    left: 25px;
+    margin-top: 14px;
+    margin-left: -125px;
     background-color: palegreen;
     border-radius: 35%;
     transform:rotate(10deg);
+   
 }
