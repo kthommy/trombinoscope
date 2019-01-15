@@ -1,0 +1,14 @@
+img {
+    border-radius: 50% ;
+    border: solid white .5em;
+    width: 10em;
+    height: 10em;
+   }
+   
+   h1 {
+       text-align: center;
+       color: white;
+   }
+   ul { 
+       list-style-type: none;
+   }

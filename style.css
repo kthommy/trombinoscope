@@ -1,20 +1,32 @@
 ul {
-    display: flex;
-    flex-flow: row wrap;
+    display: grid;
+    grid: repeat(2, 15em) / auto-flow 15em;
+    list-style-type: none;
+    margin: 0 auto;
  }
- img {
- border-radius: 50% ;;
- width: 5em;
- height: 5em;
 
+ li {
+     grid: 1fr;
+ }
+
+ img {
+ border-radius: 50% ;
+ border: solid white .5em;
+ width: 10em;
+ height: 10em;
 }
+
 h1 {
     text-align: center;
+    color: white;
 }
-ul { 
-    list-style-type: none;
+
+a {
+    text-decoration: none;
 }
-.photo {
-    width: 200em;
-    height: 200em;
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: black;
 }
