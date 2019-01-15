@@ -1,0 +1,46 @@
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu li{
+    margin: 20px 10px;
+}
+.menu li:first-of-type{
+    margin-left: 0;
+}
+.menu li:last-of-type{
+    margin-right: 0;
+}
+
+.menu span{
+    display: none;
+}
+
+.menu a{
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+
+    transition: .3s ease-in all;
+}
+.menu img{
+    width: 50px;
+    height: 50px;
+}
+
+/* 
+    HOVER
+*/
+.menu a:hover{
+    transform: translateY(-10px);
+    
+    -webkit-box-shadow: 0px 28px 22px -10px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 28px 22px -10px rgba(0,0,0,0.31);
+    box-shadow: 0px 28px 22px -10px rgba(0,0,0,0.31);
+
+    transition: .3s ease-out all;
+}
