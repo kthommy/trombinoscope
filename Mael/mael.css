@@ -7,6 +7,29 @@ html {
     align-items: center
 }
 
+
+input {
+    margin: 10px auto;
+    width: 700px;
+    height: 5em;
+    justify-content: center;
+    color: palevioletred;
+    background-image: -moz-linear-gradient(to left, palegreen, paleturquoise)
+}
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 1px white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+}
+
+a {
+    text-decoration: none;
+}
+
 .main{
     background-color: palevioletred;
 
