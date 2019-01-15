@@ -1,0 +1,11 @@
+ img {
+ border-radius: 50% ;;
+ display: block;
+
+}
+h1 {
+    text-align: center;
+}
+ul { 
+    list-style-type: none;
+}
