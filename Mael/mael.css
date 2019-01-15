@@ -98,18 +98,31 @@ a {
     z-index: 2;
 }
 
-.wagon4 .wagon1 {
-    left: -10px;
+.door {
+    height: 40px;
+    width: 20px;
+    background-color: gray;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 20% 20% 0 0;
+}
+
+.windows-w4 {
+    height: 20px;
+    width: 85px;
+    border-radius: 20% 20% 0 0;
+    margin-top: 22px;
+    margin-left: 35px;
+    background-image: -moz-linear-gradient( to left, white, cyan) ;
+    position: absolute;
+    z-index: 1;
 }
 
 .nose {
-    height: 50px;
-    width:150px;
-    margin-top: 14px;
-    margin-left: -125px;
+    height: 45px;
+    width:100px;
     background-color: palegreen;
     border-radius: 35%;
-    transform:rotate(10deg);
-    animation: wagon 8s infinite linear;
-   
+    transform:rotate(10deg) translateX(35px);
+    margin-top: 20px;
 }
