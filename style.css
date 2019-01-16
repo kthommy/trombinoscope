@@ -1,6 +1,6 @@
 ul {
     display: grid;
-    grid: repeat(2, 15em) / auto-flow 15em;
+    grid: repeat(2, 15em) / auto-flow 20em;
     list-style-type: none;
     margin: 0 auto;
  }
